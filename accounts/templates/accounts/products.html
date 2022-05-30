@@ -17,11 +17,11 @@
 							<th>Price</th>
 						</tr>
 
-						{% for i in products %}
+						{% for product in products %}
 							<tr>
-								<td>{{ i.name }}</td>
-								<td>{{ i.price }}</td>
-								<td>{{ i.category }}</td>
+								<td>{{ product.name }}</td>
+								<td>{{ product.category }}</td>
+								<td>{{ product.price }}</td>
 							</tr>
 						{% endfor %}
 
